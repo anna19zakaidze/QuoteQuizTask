@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/sass/style.css">
+    <script defer src="/js/auth.js"></script>
+    <script defer src="/init.js"></script>
+</head>
+<body>
+    <div class="container">
+       <h1 class="text-center">Welcome to Quote Quiz</h1>
+       <p class="text-center"><a href="#" class="logout">Log Out</a></p>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h2 class="text-center">Select Quiz Mode</h2>
+        <br>
+        <form  class="modeForm" action="/js/Quiz/Binary/index.html"> 
+            <button class="button" type="submit" id="mode">Binary</button>
+        </form>
+        <br>
+        <form  class="modeForm" action="/js/Quiz/MultipleChoice/index.html"> 
+            <button class="button" type="submit" id="mode">Multiple Choice</button>
+        </form>
+     </div>
+</body>
+</html>

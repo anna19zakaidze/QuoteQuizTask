@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ULdB2yNDG/7ZGh9QvTtiqbTDTNi1ngyi5H60BXkaD+w=",
+  "Source": "QuoteManagement.API",
+  "BasePath": "_content/QuoteManagement.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
